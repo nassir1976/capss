@@ -9,11 +9,11 @@ io.on('connection', (socket) => {
   
 // The entire body cares about pickup
 socket.on('pickup', payload => {
-  console.log('pickup EVENT:', payload)
+  console.log('PICKUP EVENT:', payload)
   socket.broadcast.emit('pickup', payload)
 
 });
-socket.on('in-transit', (payload) => {
+socket.on('intransit', (payload) => {
   console.log('INTRANSIT EVENT:', payload)
   socket.broadcast.emit('intransit', payload)
 
@@ -21,7 +21,8 @@ socket.on('in-transit', (payload) => {
 });
 
 socket.on('delivered', (payload) => {
+  console.log('DELIVERED EVENT:', payload)
   socket.broadcast.emit('delivered', payload)
-  caps.emit('delivered', payload)
+ 
 })
 })
