@@ -1,0 +1,25 @@
+{
+  "name": "capss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "caps.js",
+  "dependencies": {
+    "socket.io": "^2.4.1"
+    
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nassir1976/capss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nassir1976/capss/issues"
+  },
+  "homepage": "https://github.com/nassir1976/capss#readme"
+}
