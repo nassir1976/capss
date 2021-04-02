@@ -7,12 +7,13 @@ const caps = io.of('/caps');
 io.on('connection', (socket) => {
   console.log('new connection created ', socket.id);
   
-// The entire body cares about pickup
+//   pickup
 socket.on('pickup', payload => {
   console.log('PICKUP EVENT:', payload)
   socket.broadcast.emit('pickup', payload)
 
 });
+
 socket.on('intransit', (payload) => {
   console.log('INTRANSIT EVENT:', payload)
   socket.broadcast.emit('intransit', payload)
