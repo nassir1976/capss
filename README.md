@@ -1,6 +1,7 @@
 # capss
 
 
+
 - CAPS Phase 2: Continue working on a multi-day build of our delivery tracking system, moving event management to socket.io
 
 - In this phase, we’ll be moving away from using TCP for our event network and switching instead in to using socket.io, which takes on some of the complexity we had to manage ourselves, and also works equally well between servers and with websites.
@@ -72,3 +73,7 @@ Options
 - Compose a UML or Process/Data Flow Diagram for every application
 
 ![WhiteBoard](../capss/assets/UML-LAB12.png)
+- [vendor repo](https://github.com/nassir1976/vendor)
+- [driver repo](https://github.com/nassir1976/driver)
+
+
