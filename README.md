@@ -1,6 +1,6 @@
 # capss
 
-#### NOTE : THIS LAB IS DONE WITH THREE DIFFERENT REPO AND CONNECTED WITH workspace.code-workspace to run on terminal you have to open  from capss==> repo caps.js, from driver repo==>driver.js and from vendor repo ==> vendor.js
+##### NOTE : THIS LAB IS DONE WITH THREE DIFFERENT REPO AND CONNECTED WITH workspace.code-workspace to run on terminal you have to open  from capss==> repo caps.js, from driver repo==>driver.js and from vendor repo ==> vendor.js
 
 
 - [vendor repo](https://github.com/nassir1976/vendor)
