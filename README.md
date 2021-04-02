@@ -73,6 +73,6 @@ Options
 ### Documentation
 - Compose a UML or Process/Data Flow Diagram for every application
 
-![WhiteBoard](../capss/assets/UML-LAB12.png)
+![WhiteBoard](./assets/UML-LAB12.png)
 
 
