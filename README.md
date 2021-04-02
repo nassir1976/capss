@@ -1,4 +1,6 @@
 # capss
+
+## NOTE : THIS LAB IS DONE WITH THREE DIFFERENT REPO AND CONNECTED WITH workspace.code-workspace
 - [vendor repo](https://github.com/nassir1976/vendor)
 - [driver repo](https://github.com/nassir1976/driver)
 
